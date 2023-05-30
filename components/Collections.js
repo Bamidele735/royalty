@@ -9,11 +9,9 @@ import Thirdweb from "../public/3.png";
 import Metamask from "../public/29.png";
 import WalletConnect from "../public/54(2).png";
 import Firebase from "../public/3.png";
-import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
-import { Web3Button } from "@thirdweb-dev/react";
 const nftContract = config.contractAddress
 import {
   getTotalMinted,
@@ -130,7 +128,7 @@ export default function Collections() {
   const EligbleForFreeMint = NumberMinted < 1;
 
   return (
-    <ThirdwebProvider activeChain={activeChain}>
+    <div>
        <ToastContainer />
       <div>
         <div id="mintt" className="  heroinner">
@@ -339,7 +337,7 @@ export default function Collections() {
         </div>
       </div>
     </div>
-    </ThirdwebProvider>
+    </div>
   );
 }
 
