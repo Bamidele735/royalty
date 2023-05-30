@@ -2,17 +2,17 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 
 const config = {
   title: 'Dapp',
-  description: 'MANGAMANIACS',
-  contractAddress: '0xE708E814eb3E0FfE5c1786A3Ace42775295a7500',
-  publicSalePrice:10,
-  whitelistSalePrice:7,
-  maxMintAmount:50,
-  WlMaxMintAmount:50
+  description: 'TESTDAPP',
+  contractAddress: '0xed38968F5E733efCbBa633b9533E8502eA88D3bc',
+  publicSalePrice:1,
+  whitelistSalePrice:0.00001,
+  maxMintAmount:10,
+  WlMaxMintAmount:10
 }
 
 const onboardOptions = {
   dappId: process.env.NEXT_PUBLIC_DAPP_ID,
-  networkId: 137, // Polygone Mainnet
+  networkId: 80001, // Polygone testnet
   darkMode: true,
   walletSelect: {
     description:'Plaese select a wallet',
