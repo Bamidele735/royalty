@@ -338,14 +338,6 @@ export default function Collections() {
           </div>
         </div>
       </div>
-    <div className="HomeMarquee ">
-      <Marquee gradientWidth={0} >
-        <Image src={Metamask} alt="Metamask image" width={200} height={200} />
-        <Image src={CoinBase} alt="CoinBase image" width={200} height={200} />
-        <Image src={Thirdweb} alt="Thirdweb image" width={200} height={200} />
-        <Image src={WalletConnect} alt="WalletConnect image" width={200} height={200} />
-        <Image src={Firebase} alt="Firebase image" width={200} height={200} />
-      </Marquee>
     </div>
     </ThirdwebProvider>
   );
