@@ -188,7 +188,7 @@ export default function Collections() {
                         : isWlMint && !EligbleForFreeMint
                         ? config.whitelistSalePrice * mintAmount
                         : config.publicSalePrice * mintAmount
-                    ).toFixed(5)}{" "}
+                    ).toFixed(1)}{" "}
                     MATIC
                   </p>{" "}
                 </div>
