@@ -5,7 +5,7 @@ const config = {
   description: 'TESTDAPP',
   contractAddress: '0xed38968F5E733efCbBa633b9533E8502eA88D3bc',
   publicSalePrice:1,
-  whitelistSalePrice:0.00001,
+  whitelistSalePrice:0.1,
   maxMintAmount:10,
   WlMaxMintAmount:10
 }
