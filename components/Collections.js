@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { initOnboard } from "../ulits/onboard";
-import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import { config } from "../dapp.config";
 import React from "react";
@@ -9,8 +8,6 @@ import Thirdweb from "../public/3.png";
 import Metamask from "../public/29.png";
 import WalletConnect from "../public/54(2).png";
 import Firebase from "../public/3.png";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
 const nftContract = config.contractAddress
 import {
@@ -25,7 +22,6 @@ import {
 } from "../ulits/interact";
 
 export default function Collections() {
-  const activeChain = ChainId.Polygon;
   const [maxSupply, setMaxSupply] = useState(0);
   const [totalMinted, setTotalMinted] = useState(0);
   const [NumberMinted, setNumberMinted] = useState(0);
@@ -129,7 +125,6 @@ export default function Collections() {
 
   return (
     <div>
-       <ToastContainer />
       <div>
         <div id="mintt" className="  heroinner">
 
@@ -142,7 +137,7 @@ export default function Collections() {
                 <div>
                 <div className="rrex">
               <h1 className="color font-Righteous uppercase font-bold text-3xl md:text-4xl  bg-clip-text mt-3">
-              Manga <br />
+              TEST NFT <br />
                 {paused
                   ? "Paused"
                   : isWlMint
