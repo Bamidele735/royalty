@@ -62,7 +62,7 @@ export const publicMint = async (mintAmount) => {
       web3.utils.toWei(String(config.publicSalePrice*mintAmount), 'ether')
     ).toString(16), // hex
     gas: String(300000 * mintAmount),
-    data: nftContract.methods.lazyMint(mintAmount).encodeABI(),
+    data: nftContract.methods.publicSaleMint(mintAmount).encodeABI(),
     nonce: nonce.toString(16)
   }
 
