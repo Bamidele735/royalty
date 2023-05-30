@@ -154,9 +154,9 @@ export const whitelistedMint = async (mintAmount) => {
     return {
       success: true,
       status: (
-        <a href={`https://polygonscan.com/address/${txHash}`} target="_blank">
+        <a href={`https://mumbai.polygonscan.com/address/${txHash}`} target="_blank">
           <p>✅ Check out your transaction on polygonscan:</p>
-          <p>{`https://polygonscan.com/address/${txHash}`}</p>
+          <p>{`https://mumbai.polygonscan.com/address/${txHash}`}</p>
         </a>
       )
     }
