@@ -195,7 +195,7 @@ export default function Collections() {
                         : isWlMint && !EligbleForFreeMint
                         ? config.whitelistSalePrice * mintAmount
                         : config.publicSalePrice * mintAmount
-                    ).toFixed(1)}{" "}
+                    ).toFixed(4)}{" "}
                     MATIC
                   </p>{" "}
                 </div>
@@ -323,7 +323,7 @@ export default function Collections() {
                 Contract Address :
                 <br />
                 <a
-                  href={`https://polygonscan.com/address/${config.contractAddress}`}
+                  href={`https://mumbai.polygonscan.com/address/${config.contractAddress}`}
                   target="_blank"
                   rel="noreferrer"
                   className="navtext"
