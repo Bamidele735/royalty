@@ -1,6 +1,4 @@
-import {
-  Collections
-} from '@/components';
+import Collections from '../components/Collections';
 import React from 'react';
 const Home = () => {
   return (
