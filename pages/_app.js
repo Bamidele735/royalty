@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
     <ThirdwebProvider activeChain={activeChain}>
        <ToastContainer />
       <Head>
-        <title>PsychoArt - NFT Marketplace</title>
-        <meta name='title' content='PsychoArt - NFT Marketplace' />
+        <title>TESTDAPP - NFT Marketplace</title>
+        <meta name='title' content='TESTDAPP - NFT Marketplace' />
         <meta name='description' content='Buy & sale nft online' />
         <meta name='keywords' content='nft, marketplace' />
         <meta name='robots' content='index, follow' />
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content={process.env.NEXT_PUBLIC_MAIN_URL} />
-        <meta property='og:title' content='PsychoArt - NFT Marketplace' />
+        <meta property='og:title' content='TESTDAPP - NFT Marketplace' />
         <meta property='og:description' content='Buy & sale nft online' />
         <meta
           property='og:image'
@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
           property='twitter:url'
           content={process.env.NEXT_PUBLIC_MAIN_URL}
         />
-        <meta property='twitter:title' content='PsychoArt - NFT Marketplace' />
+        <meta property='twitter:title' content='TESTDAPP - NFT Marketplace' />
         <meta property='twitter:description' content='Buy & sale nft online' />
         <meta
           property='twitter:image'
